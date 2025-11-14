@@ -10,7 +10,9 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var players: [String] = ["Elisha", "Andre", "Jasmine"]
-                                            
+    
+    @State private var scores: [Int] = []
+
     var body: some View {
             VStack {
                         ForEach(0..<players.count, id: \.description) { index in

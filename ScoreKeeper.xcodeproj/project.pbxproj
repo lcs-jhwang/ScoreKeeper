@@ -6,17 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		31ECD7C92EC772EA00D74C31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD7C62EC772EA00D74C31 /* ContentView.swift */; };
+		31ECD7CA2EC772EA00D74C31 /* ScoreKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD7C72EC772EA00D74C31 /* ScoreKeeperApp.swift */; };
+		31ECD7CB2EC772EA00D74C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31ECD7C52EC772EA00D74C31 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		31ECD7B72EC772E000D74C31 /* ScoreKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31ECD7C52EC772EA00D74C31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31ECD7C62EC772EA00D74C31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31ECD7C72EC772EA00D74C31 /* ScoreKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreKeeperApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		31ECD7B92EC772E000D74C31 /* ScoreKeeper */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScoreKeeper;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		31ECD7B42EC772E000D74C31 /* Frameworks */ = {
@@ -32,7 +33,7 @@
 		31ECD7AE2EC772DF00D74C31 = {
 			isa = PBXGroup;
 			children = (
-				31ECD7B92EC772E000D74C31 /* ScoreKeeper */,
+				31ECD7C82EC772EA00D74C31 /* ScoreKeeper */,
 				31ECD7B82EC772E000D74C31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +44,24 @@
 				31ECD7B72EC772E000D74C31 /* ScoreKeeper.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		31ECD7C82EC772EA00D74C31 /* ScoreKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				31ECD7C52EC772EA00D74C31 /* Assets.xcassets */,
+				31ECD7C72EC772EA00D74C31 /* ScoreKeeperApp.swift */,
+				31ECD7CC2EC772F000D74C31 /* Views */,
+			);
+			path = ScoreKeeper;
+			sourceTree = "<group>";
+		};
+		31ECD7CC2EC772F000D74C31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31ECD7C62EC772EA00D74C31 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +78,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				31ECD7B92EC772E000D74C31 /* ScoreKeeper */,
 			);
 			name = ScoreKeeper;
 			packageProductDependencies = (
@@ -109,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31ECD7CB2EC772EA00D74C31 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31ECD7C92EC772EA00D74C31 /* ContentView.swift in Sources */,
+				31ECD7CA2EC772EA00D74C31 /* ScoreKeeperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

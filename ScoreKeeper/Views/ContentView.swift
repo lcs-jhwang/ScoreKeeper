@@ -25,6 +25,8 @@ struct ContentView: View {
                     scores.append(0)
 
                            }
+                Spacer()
+
                     }
         .padding()
     }
